@@ -1,0 +1,23 @@
+.navbar {
+  width: 100vw;
+  background-color: rgb(92, 33, 139);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.navbar-logo {
+  width: 12rem;
+}
+.main-section {
+  display: flex;
+  gap: 5%;
+}
+.sidebar {
+  flex: 1 0 25%;
+
+  background-color: rgb(244, 244, 244);
+}
+.main-content {
+  flex: 1 0 60%;
+}
